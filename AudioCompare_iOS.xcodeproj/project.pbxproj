@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330333036262F6091836E9D0 /* Pods_AudioCompare_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B1987446D7FEF012932F6 /* Pods_AudioCompare_iOS.framework */; };
+		F41877341F25A8D7003C8AE1 /* Main_DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41877321F25A8D7003C8AE1 /* Main_DataViewController.swift */; };
+		F41877351F25A8D7003C8AE1 /* Main_TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41877331F25A8D7003C8AE1 /* Main_TracksViewController.swift */; };
+		F419AA241F2587210073C6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419AA191F2587210073C6CC /* AppDelegate.swift */; };
+		F419AA261F2587210073C6CC /* UIApplication+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419AA1C1F2587210073C6CC /* UIApplication+Utility.swift */; };
+		F419AA271F2587210073C6CC /* UIColor+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F419AA1D1F2587210073C6CC /* UIColor+Utility.swift */; };
+		F419AA281F2587210073C6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F419AA1F1F2587210073C6CC /* Assets.xcassets */; };
+		F419AA2A1F2587210073C6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419AA221F2587210073C6CC /* LaunchScreen.storyboard */; };
+		F419AA2B1F2587210073C6CC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419AA231F2587210073C6CC /* Main_iPhone.storyboard */; };
+		F419AA2F1F25961D0073C6CC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F419AA2E1F25961D0073C6CC /* Main_iPad.storyboard */; };
+		F41FD95D1F25AC3700EB0BC4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F41FD95C1F25AC3700EB0BC4 /* libc++.tbd */; };
+		F41FD95F1F25AC4200EB0BC4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41FD95E1F25AC4200EB0BC4 /* ImageIO.framework */; };
+		F43602941F2A6A21000F4C84 /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43602931F2A6A21000F4C84 /* NChart3D.framework */; };
+		F44B47791F2C02FD00130C7D /* AddTrack_Universal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44B47781F2C02FD00130C7D /* AddTrack_Universal.storyboard */; };
+		F44B477D1F2C32DF00130C7D /* Tracks_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B477A1F2C32DF00130C7D /* Tracks_MainViewController.swift */; };
+		F44B477E1F2C32DF00130C7D /* Tracks_SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B477B1F2C32DF00130C7D /* Tracks_SelectionViewController.swift */; };
+		F44B477F1F2C32DF00130C7D /* Projects_MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B477C1F2C32DF00130C7D /* Projects_MainViewController.swift */; };
+		F44B47811F2C32FF00130C7D /* Main_ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B47801F2C32FF00130C7D /* Main_ContainerViewController.swift */; };
+		F4A420211F27015900E26AB2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A420201F27015900E26AB2 /* CloudKit.framework */; };
+		F4C464F81F2A5F8B00D09E0E /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C464F71F2A5F8B00D09E0E /* TrackCollectionViewCell.swift */; };
+		F4D9922A1F2C522300F34E53 /* Projects_TemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D992291F2C522300F34E53 /* Projects_TemplatesViewController.swift */; };
+		F4D9922C1F2C5B3D00F34E53 /* AddProject_Universal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D9922B1F2C52EB00F34E53 /* AddProject_Universal.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231B1987446D7FEF012932F6 /* Pods_AudioCompare_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioCompare_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97007080A3AAB8B1595E2C54 /* Pods-AudioCompare_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCompare_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCompare_iOS/Pods-AudioCompare_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D2E715140649FF5ACF088FA4 /* Pods-AudioCompare_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCompare_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCompare_iOS/Pods-AudioCompare_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F41877321F25A8D7003C8AE1 /* Main_DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_DataViewController.swift; sourceTree = "<group>"; };
+		F41877331F25A8D7003C8AE1 /* Main_TracksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_TracksViewController.swift; sourceTree = "<group>"; };
+		F419AA191F2587210073C6CC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F419AA1C1F2587210073C6CC /* UIApplication+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Utility.swift"; sourceTree = "<group>"; };
+		F419AA1D1F2587210073C6CC /* UIColor+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utility.swift"; sourceTree = "<group>"; };
+		F419AA1F1F2587210073C6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F419AA201F2587210073C6CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F419AA221F2587210073C6CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F419AA231F2587210073C6CC /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F419AA2E1F25961D0073C6CC /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		F41FD95C1F25AC3700EB0BC4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F41FD95E1F25AC4200EB0BC4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F43602931F2A6A21000F4C84 /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NChart3D.framework; sourceTree = "<group>"; };
+		F44B47781F2C02FD00130C7D /* AddTrack_Universal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTrack_Universal.storyboard; sourceTree = "<group>"; };
+		F44B477A1F2C32DF00130C7D /* Tracks_MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks_MainViewController.swift; sourceTree = "<group>"; };
+		F44B477B1F2C32DF00130C7D /* Tracks_SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks_SelectionViewController.swift; sourceTree = "<group>"; };
+		F44B477C1F2C32DF00130C7D /* Projects_MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects_MainViewController.swift; sourceTree = "<group>"; };
+		F44B47801F2C32FF00130C7D /* Main_ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_ContainerViewController.swift; sourceTree = "<group>"; };
+		F4A4201F1F27015600E26AB2 /* AudioCompare_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioCompare_iOS.entitlements; sourceTree = "<group>"; };
+		F4A420201F27015900E26AB2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F4C464F71F2A5F8B00D09E0E /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		F4D992291F2C522300F34E53 /* Projects_TemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects_TemplatesViewController.swift; sourceTree = "<group>"; };
+		F4D9922B1F2C52EB00F34E53 /* AddProject_Universal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddProject_Universal.storyboard; sourceTree = "<group>"; };
+		F4DC3FB41F257AEF00930494 /* AudioCompare_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCompare_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DC3FB11F257AEF00930494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43602941F2A6A21000F4C84 /* NChart3D.framework in Frameworks */,
+				F4A420211F27015900E26AB2 /* CloudKit.framework in Frameworks */,
+				F41FD95F1F25AC4200EB0BC4 /* ImageIO.framework in Frameworks */,
+				F41FD95D1F25AC3700EB0BC4 /* libc++.tbd in Frameworks */,
+				330333036262F6091836E9D0 /* Pods_AudioCompare_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D513F775D3A72B840A98EC7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97007080A3AAB8B1595E2C54 /* Pods-AudioCompare_iOS.debug.xcconfig */,
+				D2E715140649FF5ACF088FA4 /* Pods-AudioCompare_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F419AA171F2587210073C6CC /* AudioCompare_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4A4201F1F27015600E26AB2 /* AudioCompare_iOS.entitlements */,
+				F419AA181F2587210073C6CC /* Controller */,
+				F419AA1B1F2587210073C6CC /* Extensions */,
+				F419AA1E1F2587210073C6CC /* Resources */,
+				F419AA211F2587210073C6CC /* Storyboards */,
+				F4C464F61F2A5F7000D09E0E /* CollectionViewCells */,
+			);
+			path = AudioCompare_iOS;
+			sourceTree = "<group>";
+		};
+		F419AA181F2587210073C6CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F419AA191F2587210073C6CC /* AppDelegate.swift */,
+				F44B47801F2C32FF00130C7D /* Main_ContainerViewController.swift */,
+				F41877331F25A8D7003C8AE1 /* Main_TracksViewController.swift */,
+				F41877321F25A8D7003C8AE1 /* Main_DataViewController.swift */,
+				F44B477C1F2C32DF00130C7D /* Projects_MainViewController.swift */,
+				F4D992291F2C522300F34E53 /* Projects_TemplatesViewController.swift */,
+				F44B477A1F2C32DF00130C7D /* Tracks_MainViewController.swift */,
+				F44B477B1F2C32DF00130C7D /* Tracks_SelectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F419AA1B1F2587210073C6CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F419AA1C1F2587210073C6CC /* UIApplication+Utility.swift */,
+				F419AA1D1F2587210073C6CC /* UIColor+Utility.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F419AA1E1F2587210073C6CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F419AA1F1F2587210073C6CC /* Assets.xcassets */,
+				F419AA201F2587210073C6CC /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F419AA211F2587210073C6CC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F419AA221F2587210073C6CC /* LaunchScreen.storyboard */,
+				F419AA231F2587210073C6CC /* Main_iPhone.storyboard */,
+				F419AA2E1F25961D0073C6CC /* Main_iPad.storyboard */,
+				F4D9922B1F2C52EB00F34E53 /* AddProject_Universal.storyboard */,
+				F44B47781F2C02FD00130C7D /* AddTrack_Universal.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F4C464F61F2A5F7000D09E0E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F4C464F71F2A5F8B00D09E0E /* TrackCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		F4DC3FAB1F257AEF00930494 = {
+			isa = PBXGroup;
+			children = (
+				F419AA171F2587210073C6CC /* AudioCompare_iOS */,
+				F4DC3FB51F257AEF00930494 /* Products */,
+				D513F775D3A72B840A98EC7C /* Pods */,
+				F87510390080E74C1CAB2049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DC3FB51F257AEF00930494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC3FB41F257AEF00930494 /* AudioCompare_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87510390080E74C1CAB2049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43602931F2A6A21000F4C84 /* NChart3D.framework */,
+				F4A420201F27015900E26AB2 /* CloudKit.framework */,
+				F41FD95E1F25AC4200EB0BC4 /* ImageIO.framework */,
+				F41FD95C1F25AC3700EB0BC4 /* libc++.tbd */,
+				231B1987446D7FEF012932F6 /* Pods_AudioCompare_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DC3FB31F257AEF00930494 /* AudioCompare_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DC3FC61F257AEF00930494 /* Build configuration list for PBXNativeTarget "AudioCompare_iOS" */;
+			buildPhases = (
+				4EC196E8324983241B726AE9 /* [CP] Check Pods Manifest.lock */,
+				F4DC3FB01F257AEF00930494 /* Sources */,
+				F4DC3FB11F257AEF00930494 /* Frameworks */,
+				F4DC3FB21F257AEF00930494 /* Resources */,
+				EFB661F31D125611384D6A57 /* [CP] Embed Pods Frameworks */,
+				75A3F1503C96F84721E275C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioCompare_iOS;
+			productName = AudioCompare_iOS;
+			productReference = F4DC3FB41F257AEF00930494 /* AudioCompare_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DC3FAC1F257AEF00930494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LeVieux;
+				TargetAttributes = {
+					F4DC3FB31F257AEF00930494 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 654A374879;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F4DC3FAF1F257AEF00930494 /* Build configuration list for PBXProject "AudioCompare_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DC3FAB1F257AEF00930494;
+			productRefGroup = F4DC3FB51F257AEF00930494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DC3FB31F257AEF00930494 /* AudioCompare_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DC3FB21F257AEF00930494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D9922C1F2C5B3D00F34E53 /* AddProject_Universal.storyboard in Resources */,
+				F419AA2A1F2587210073C6CC /* LaunchScreen.storyboard in Resources */,
+				F419AA2F1F25961D0073C6CC /* Main_iPad.storyboard in Resources */,
+				F419AA281F2587210073C6CC /* Assets.xcassets in Resources */,
+				F44B47791F2C02FD00130C7D /* AddTrack_Universal.storyboard in Resources */,
+				F419AA2B1F2587210073C6CC /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EC196E8324983241B726AE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75A3F1503C96F84721E275C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCompare_iOS/Pods-AudioCompare_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB661F31D125611384D6A57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCompare_iOS/Pods-AudioCompare_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DC3FB01F257AEF00930494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44B477D1F2C32DF00130C7D /* Tracks_MainViewController.swift in Sources */,
+				F4D9922A1F2C522300F34E53 /* Projects_TemplatesViewController.swift in Sources */,
+				F419AA271F2587210073C6CC /* UIColor+Utility.swift in Sources */,
+				F4C464F81F2A5F8B00D09E0E /* TrackCollectionViewCell.swift in Sources */,
+				F44B477E1F2C32DF00130C7D /* Tracks_SelectionViewController.swift in Sources */,
+				F419AA241F2587210073C6CC /* AppDelegate.swift in Sources */,
+				F41877341F25A8D7003C8AE1 /* Main_DataViewController.swift in Sources */,
+				F41877351F25A8D7003C8AE1 /* Main_TracksViewController.swift in Sources */,
+				F44B47811F2C32FF00130C7D /* Main_ContainerViewController.swift in Sources */,
+				F44B477F1F2C32DF00130C7D /* Projects_MainViewController.swift in Sources */,
+				F419AA261F2587210073C6CC /* UIApplication+Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4DC3FC41F257AEF00930494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4DC3FC51F257AEF00930494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DC3FC71F257AEF00930494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97007080A3AAB8B1595E2C54 /* Pods-AudioCompare_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AudioCompare_iOS/AudioCompare_iOS.entitlements;
+				DEVELOPMENT_TEAM = 654A374879;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCompare_iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioCompare-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioCompare/AudioCompare_iOS/NChart3D.framework/Headers/NChart3D.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4DC3FC81F257AEF00930494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E715140649FF5ACF088FA4 /* Pods-AudioCompare_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AudioCompare_iOS/AudioCompare_iOS.entitlements;
+				DEVELOPMENT_TEAM = 654A374879;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/AudioCompare_iOS/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioCompare-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioCompare/AudioCompare_iOS/NChart3D.framework/Headers/NChart3D.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DC3FAF1F257AEF00930494 /* Build configuration list for PBXProject "AudioCompare_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC3FC41F257AEF00930494 /* Debug */,
+				F4DC3FC51F257AEF00930494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DC3FC61F257AEF00930494 /* Build configuration list for PBXNativeTarget "AudioCompare_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC3FC71F257AEF00930494 /* Debug */,
+				F4DC3FC81F257AEF00930494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DC3FAC1F257AEF00930494 /* Project object */;
+}
