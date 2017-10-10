@@ -5,10 +5,10 @@ use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.0'
-project 'AudioCompare_iOS.xcodeproj'
+project 'AudioRating_iOS.xcodeproj'
 
-target 'AudioCompare_iOS' do
+target 'AudioRating_iOS' do
 
-#pod 'AudioKit'
+	pod 'AudioKit'
 
 end

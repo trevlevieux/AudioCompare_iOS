@@ -1,6 +1,0 @@
-framework module Pods_AudioCompare_iOS {
-  umbrella header "Pods-AudioCompare_iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}
