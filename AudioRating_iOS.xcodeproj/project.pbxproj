@@ -28,6 +28,7 @@
 		F477CA7F1F88208600C7CCD9 /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA7E1F88208600C7CCD9 /* NChart3D.framework */; };
 		F477CA811F8820A500C7CCD9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA801F8820A500C7CCD9 /* libc++.tbd */; };
 		F477CA831F8820C500C7CCD9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA821F8820B000C7CCD9 /* ImageIO.framework */; };
+		F47A0BE91F8C79F3004120F6 /* FFTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A0BE81F8C79F3004120F6 /* FFTManager.swift */; };
 		F4DC31971F8C497000C25222 /* Projects_TemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC31961F8C497000C25222 /* Projects_TemplatesViewController.swift */; };
 		F4DC31991F8C4A8300C25222 /* AddProject_Universal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC31981F8C49B500C25222 /* AddProject_Universal.storyboard */; };
 		F4DC319C1F8C4B5C00C25222 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DC319B1F8C4B5C00C25222 /* CloudKit.framework */; };
@@ -59,10 +60,12 @@
 		F477CA7E1F88208600C7CCD9 /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NChart3D.framework; sourceTree = "<group>"; };
 		F477CA801F8820A500C7CCD9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F477CA821F8820B000C7CCD9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F47A0BE81F8C79F3004120F6 /* FFTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTManager.swift; sourceTree = "<group>"; };
 		F4DC31961F8C497000C25222 /* Projects_TemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects_TemplatesViewController.swift; sourceTree = "<group>"; };
 		F4DC31981F8C49B500C25222 /* AddProject_Universal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddProject_Universal.storyboard; sourceTree = "<group>"; };
 		F4DC319A1F8C4B5700C25222 /* AudioRating_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioRating_iOS.entitlements; sourceTree = "<group>"; };
 		F4DC319B1F8C4B5C00C25222 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F4DC319D1F8C650700C25222 /* Three_60.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Three_60.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		F4546EB41F881F0B00424128 = {
 			isa = PBXGroup;
 			children = (
+				F4DC319D1F8C650700C25222 /* Three_60.wav */,
 				F477CA501F881FB900C7CCD9 /* AudioRating_iOS */,
 				F4546EBE1F881F0C00424128 /* Products */,
 				94E18BF82DCC791028B701A2 /* Pods */,
@@ -128,6 +132,7 @@
 				F477CA551F881FB900C7CCD9 /* Controller */,
 				F477CA5E1F881FB900C7CCD9 /* Extensions */,
 				F477CA611F881FB900C7CCD9 /* Resources */,
+				F47A0BE71F8C79A2004120F6 /* Source */,
 				F477CA641F881FB900C7CCD9 /* Storyboards */,
 			);
 			path = AudioRating_iOS;
@@ -188,6 +193,14 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		F47A0BE71F8C79A2004120F6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F47A0BE81F8C79F3004120F6 /* FFTManager.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,7 +236,7 @@
 				TargetAttributes = {
 					F4546EBC1F881F0C00424128 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -343,6 +356,7 @@
 				F477CA731F881FB900C7CCD9 /* Tracks_MainViewController.swift in Sources */,
 				F477CA6A1F881FB900C7CCD9 /* ProjectCollectionViewCell.swift in Sources */,
 				F477CA6E1F881FB900C7CCD9 /* Main_ContainerViewController.swift in Sources */,
+				F47A0BE91F8C79F3004120F6 /* FFTManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AudioRating_iOS/AudioRating_iOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 654A374879;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +487,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioRating-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4a7d7dc1-4c29-450e-90dd-edeb363ef142";
+				PROVISIONING_PROFILE_SPECIFIER = AudioRating_iOS;
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioRating/AudioRating_iOS/NChart3D.framework/Headers/NChart3D.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,7 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AudioRating_iOS/AudioRating_iOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 654A374879;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,6 +512,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "levieux.AudioRating-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4a7d7dc1-4c29-450e-90dd-edeb363ef142";
+				PROVISIONING_PROFILE_SPECIFIER = AudioRating_iOS;
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioRating/AudioRating_iOS/NChart3D.framework/Headers/NChart3D.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

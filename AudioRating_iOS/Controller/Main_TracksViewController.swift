@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AudioKit
 
 class Main_TracksViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIDocumentPickerDelegate {
 
@@ -15,6 +16,10 @@ class Main_TracksViewController: UIViewController, UICollectionViewDelegate, UIC
     @IBOutlet var collectionView: UICollectionView!
     
     var audioPlayer = AVAudioPlayer()
+    
+    let bufferSize: UInt32 = 512
+    var fft: EZAudioFFT?
+    var fftData = [Double]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +45,17 @@ class Main_TracksViewController: UIViewController, UICollectionViewDelegate, UIC
                 trackDictionary["url"] = url
                 trackDictionary["data"] = audioData
                 trackDictionary["name"] = audioName
+                
+                let audioFile = try? AKAudioFile(readFileName: "Three_60.wav", baseDir: .resources)
+                let fft = AKFFTTap
+                
+                audioFile.
+                
+                let audioNode = AKNode.init(avAudioNode: audioFile)
+                
+                
+                let fftTap = AKFFTTap.init(<#T##input: AKNode##AKNode#>)
+                
                 
                 tracksArray.append(trackDictionary)
                 collectionView.reloadData()
