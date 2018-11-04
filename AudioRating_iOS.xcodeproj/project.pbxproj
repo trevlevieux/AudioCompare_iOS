@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCFB04DC218EA5B900405734 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFB04DB218EA5B900405734 /* AVFoundation.framework */; };
 		F36664A8401C36E7633566EC /* Pods_AudioRating_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09048CA5F53C35FFA5BD58C4 /* Pods_AudioRating_iOS.framework */; };
 		F477CA6A1F881FB900C7CCD9 /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CA521F881FB900C7CCD9 /* ProjectCollectionViewCell.swift */; };
 		F477CA6B1F881FB900C7CCD9 /* ProjectCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F477CA531F881FB900C7CCD9 /* ProjectCollectionViewCell.xib */; };
@@ -25,7 +26,6 @@
 		F477CA7B1F881FB900C7CCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477CA671F881FB900C7CCD9 /* LaunchScreen.storyboard */; };
 		F477CA7C1F881FB900C7CCD9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477CA681F881FB900C7CCD9 /* Main_iPad.storyboard */; };
 		F477CA7D1F881FB900C7CCD9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F477CA691F881FB900C7CCD9 /* Main_iPhone.storyboard */; };
-		F477CA7F1F88208600C7CCD9 /* NChart3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA7E1F88208600C7CCD9 /* NChart3D.framework */; };
 		F477CA811F8820A500C7CCD9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA801F8820A500C7CCD9 /* libc++.tbd */; };
 		F477CA831F8820C500C7CCD9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F477CA821F8820B000C7CCD9 /* ImageIO.framework */; };
 		F47A0BE91F8C79F3004120F6 /* FFTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A0BE81F8C79F3004120F6 /* FFTManager.swift */; };
@@ -38,6 +38,7 @@
 		09048CA5F53C35FFA5BD58C4 /* Pods_AudioRating_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioRating_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60180BC6BD77E08084D0BC31 /* Pods-AudioRating_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioRating_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioRating_iOS/Pods-AudioRating_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7434CE3203509203925EDA3F /* Pods-AudioRating_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioRating_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioRating_iOS/Pods-AudioRating_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CCFB04DB218EA5B900405734 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F4546EBD1F881F0C00424128 /* AudioRating_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRating_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F477CA521F881FB900C7CCD9 /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
 		F477CA531F881FB900C7CCD9 /* ProjectCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		F477CA671F881FB900C7CCD9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F477CA681F881FB900C7CCD9 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		F477CA691F881FB900C7CCD9 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
-		F477CA7E1F88208600C7CCD9 /* NChart3D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NChart3D.framework; sourceTree = "<group>"; };
 		F477CA801F8820A500C7CCD9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F477CA821F8820B000C7CCD9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F47A0BE81F8C79F3004120F6 /* FFTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFTManager.swift; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFB04DC218EA5B900405734 /* AVFoundation.framework in Frameworks */,
 				F4DC319C1F8C4B5C00C25222 /* CloudKit.framework in Frameworks */,
 				F477CA831F8820C500C7CCD9 /* ImageIO.framework in Frameworks */,
 				F477CA811F8820A500C7CCD9 /* libc++.tbd in Frameworks */,
-				F477CA7F1F88208600C7CCD9 /* NChart3D.framework in Frameworks */,
 				F36664A8401C36E7633566EC /* Pods_AudioRating_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,10 +96,10 @@
 		ECA2116AFB16E7A7BAFF01F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCFB04DB218EA5B900405734 /* AVFoundation.framework */,
 				F4DC319B1F8C4B5C00C25222 /* CloudKit.framework */,
 				F477CA821F8820B000C7CCD9 /* ImageIO.framework */,
 				F477CA801F8820A500C7CCD9 /* libc++.tbd */,
-				F477CA7E1F88208600C7CCD9 /* NChart3D.framework */,
 				09048CA5F53C35FFA5BD58C4 /* Pods_AudioRating_iOS.framework */,
 			);
 			name = Frameworks;
@@ -212,8 +212,6 @@
 				F4546EB91F881F0C00424128 /* Sources */,
 				F4546EBA1F881F0C00424128 /* Frameworks */,
 				F4546EBB1F881F0C00424128 /* Resources */,
-				D56B3EB5AEF285D2053BC394 /* [CP] Copy Pods Resources */,
-				31A2E0901CD9845AE2955C79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,41 +298,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31A2E0901CD9845AE2955C79 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AudioRating_iOS/Pods-AudioRating_iOS-frameworks.sh",
-				"${PODS_ROOT}/AudioKit/iOS/AudioKit.framework",
-				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioRating_iOS/Pods-AudioRating_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D56B3EB5AEF285D2053BC394 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioRating_iOS/Pods-AudioRating_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -489,7 +452,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4a7d7dc1-4c29-450e-90dd-edeb363ef142";
 				PROVISIONING_PROFILE_SPECIFIER = AudioRating_iOS;
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioRating/AudioRating_iOS/NChart3D.framework/Headers/NChart3D.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -514,7 +476,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4a7d7dc1-4c29-450e-90dd-edeb363ef142";
 				PROVISIONING_PROFILE_SPECIFIER = AudioRating_iOS;
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/trevorlevieux/Desktop/LeVieux/AudioRating/AudioRating_iOS/NChart3D.framework/Headers/NChart3D.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

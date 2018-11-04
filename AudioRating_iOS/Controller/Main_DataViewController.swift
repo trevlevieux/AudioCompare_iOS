@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Main_DataViewController: UIViewController, NChartSeriesDataSource, NChartValueAxisDataSource {
+class Main_DataViewController: UIViewController/*, NChartSeriesDataSource, NChartValueAxisDataSource*/ {
     
-    @IBOutlet var chartView: NChartView!
+    /*@IBOutlet var chartView: NChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -103,6 +103,6 @@ class Main_DataViewController: UIViewController, NChartSeriesDataSource, NChartV
             // All other axes should have the default length.
             return nil
         }
-    }
+    }*/
 }
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import AudioKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+       /* do {
+            
+            let file = try? AKAudioFile(readFileName: "Three_60.wav")
+            
+            let player = AKPlayer(audioFile: file!)
+            player.isLooping = true
+            
+            AudioKit.output = player
+            
+            player.play()
+            let fft = AKFFTTap(player)
+            
+            print(fft.fftData)
+            
+            
+            try AudioKit.start()
+        } catch {
+            AKLog("AudioKit did not start!")
+        }*/
+        
+        
         return true
     }
 
