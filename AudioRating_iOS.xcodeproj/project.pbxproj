@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCBD87D52190BAE1007C3A1B /* Three_60.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4DC319D1F8C650700C25222 /* Three_60.wav */; };
 		CCFB04DC218EA5B900405734 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFB04DB218EA5B900405734 /* AVFoundation.framework */; };
 		F36664A8401C36E7633566EC /* Pods_AudioRating_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09048CA5F53C35FFA5BD58C4 /* Pods_AudioRating_iOS.framework */; };
 		F477CA6A1F881FB900C7CCD9 /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477CA521F881FB900C7CCD9 /* ProjectCollectionViewCell.swift */; };
@@ -274,6 +275,7 @@
 				F477CA7B1F881FB900C7CCD9 /* LaunchScreen.storyboard in Resources */,
 				F477CA7D1F881FB900C7CCD9 /* Main_iPhone.storyboard in Resources */,
 				F477CA7A1F881FB900C7CCD9 /* AddTrack_Universal.storyboard in Resources */,
+				CCBD87D52190BAE1007C3A1B /* Three_60.wav in Resources */,
 				F477CA7C1F881FB900C7CCD9 /* Main_iPad.storyboard in Resources */,
 				F4DC31991F8C4A8300C25222 /* AddProject_Universal.storyboard in Resources */,
 			);

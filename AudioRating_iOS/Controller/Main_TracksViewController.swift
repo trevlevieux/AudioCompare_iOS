@@ -46,7 +46,7 @@ class Main_TracksViewController: UIViewController, UICollectionViewDelegate, UIC
                 trackDictionary["data"] = audioData
                 trackDictionary["name"] = audioName
                 
-                /*let audioFile = try? AKAudioFile(readFileName: "Three_60.wav", baseDir: .resources)
+                let audioFile = try? AKAudioFile(readFileName: "Three_60.wav", baseDir: .resources)
                 let fft = AKFFTTap
                 
                 audioFile.
@@ -58,7 +58,7 @@ class Main_TracksViewController: UIViewController, UICollectionViewDelegate, UIC
                 
                 
                 tracksArray.append(trackDictionary)
-                collectionView.reloadData()*/
+                collectionView.reloadData()
             }
         }
     }

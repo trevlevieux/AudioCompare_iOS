@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import AudioKit
+import AudioKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,9 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    {
         
-       /* do {
+        do {
+            try AudioKit.start()
+        } catch {
+            AKLog("Something went wrong.")
+        }
+        
+        /*do {
+            
+            try AudioKit.start()
             
             let file = try? AKAudioFile(readFileName: "Three_60.wav")
             
@@ -31,8 +40,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             print(fft.fftData)
             
-            
-            try AudioKit.start()
         } catch {
             AKLog("AudioKit did not start!")
         }*/
